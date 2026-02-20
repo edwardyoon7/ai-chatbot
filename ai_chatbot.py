@@ -59,14 +59,14 @@ def get_ai_response(question):
 # 1) 페이지 기본 설정 -- 브라우저의 탭영역에 표시되는 내용.
 st.set_page_config(
     page_title='AI 블량봇',
-    page_icon='./logo/chatboat_logo.jpg'
+    page_icon='./chatbot_logo.png'
 )
 
 # 2) HEADER 영역 (레이아웃 : 이미지 + 제목 영역 가로배치)
 col1, col2= st.columns([1.2, 4.8])
 
 with col1:
-    st.image("./logo/chatbot_logo.png", width=100)
+    st.image("./chatbot_logo.png", width=100)
 
 with col2:
     #제목(h1)+서브안내글씨(p) [색상을 다르게... 하려면 HTML코드로 구현]
