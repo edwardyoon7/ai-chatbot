@@ -112,3 +112,6 @@ if question:
 #2. GitHub에 프로젝트를 업로드 
 #3. new app 을 통해 앱을 만들어서 Github 저장소와 연결 
 #4. 자동 배포됨.
+
+# 외부 모듈로 문제로 에러 발생할 수 있음.
+# streamlit cloud에서 자동으로 설치하도록. requirement.txt 문서에 설치할 모듈을 등록
